@@ -6,11 +6,24 @@ public class TestMain {
 
 
     @Test
-    public void exampleTests() {
+    public void exampleTests1() {
         assertEquals("+++\n+++\n+++", Main.generateShape(3));
+
+    }
+
+    @Test
+    public void exampleTests2() {
+
         assertEquals("+++++\n+++++\n+++++\n+++++\n+++++", Main.generateShape(5));
+
+    }
+
+    @Test
+    public void exampleTests3() {
+
         assertEquals("++++++++\n++++++++\n++++++++\n++++++++\n++++++++\n++++++++\n++++++++\n++++++++", Main.generateShape(8));
     }
+
 
 
 }

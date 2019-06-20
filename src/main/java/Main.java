@@ -13,7 +13,7 @@ public class Main {
             result = result + temostring;
         }
 
-        return result;
+        return result.substring(0,result.length()-1);
     }
 
 
